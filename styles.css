@@ -1,0 +1,27 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #000;
+  margin: 50px 175px;
+}
+
+nav {
+  display: flex;
+  flex-direction: column;
+}
+
+a {
+  text-decoration: none;
+}
+
+a, a:visited {
+  color: #000;
+}
+
+.icon {
+  width: 50px;
+  height: 50px;
+  border: dotted 1px gray;
+  margin: 10px 0px;
+  padding: 10px;
+  border-radius: 25px;
+}
